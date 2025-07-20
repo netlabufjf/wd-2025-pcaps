@@ -52,7 +52,7 @@ The section below details all the possibilities for each part of the name
 - `ueransim`: simulated 3GPP UE running in a VM
 - `tngfue`: simulated non-3GPP UE running on a laptop host
 
-## IP adresses
+## IP addresses
 
 - `127.0.0.x`: free5GC NFs
 - `192.168.1.1`: TNAP/Wi-Fi LAN and internet gateway
