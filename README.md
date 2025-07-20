@@ -2,7 +2,7 @@
 
 Archive of the packet capture (PCAP) files created as part of the evaluation of a 5G simulated environment created by the [free5GC auto deploy](https://github.com/oliveiraleo/free5gc-auto-deploy) tool
 
-The experiment involved executing free5GC alongside a User Equipment (UE) to send five ping requests to Google DNS servers. This process was repeated twice, once for each access type. The captures encompass all packets generated from the initiation of free5GC until its termination, including NF signaling.
+The experiment involved executing free5GC alongside a User Equipment (UE) to send five ping requests to Google DNS servers. This process was repeated four times, twice for each access type and authentication protocol. The captures encompass all packets generated from the initiation of free5GC until its termination, including NF signaling. The tested configurations worked as expected, except for the non-3GPP EAP-AKA' configuration which still requires to be implemented on TNGF/free5GC.
 
 ## Folder structure
 
