@@ -2,6 +2,8 @@
 
 Archive of the packet capture (PCAP) files created as part of the evaluation of a 5G simulated environment created by the [free5GC auto deploy](https://github.com/oliveiraleo/free5gc-auto-deploy) tool
 
+The experiment involved executing free5GC alongside a User Equipment (UE) to send five ping requests to Google DNS servers. This process was repeated twice, once for each access type. The captures encompass all packets generated from the initiation of free5GC until its termination, including NF signaling.
+
 ## Folder structure
 
 - `3gpp-access`: files generated using [UERANSIM](https://github.com/aligungr/UERANSIM)
